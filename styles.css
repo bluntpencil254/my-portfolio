@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: sans-serif;
+
+}
+body{
+    display: flex;
+    flex-direction: row;
+    max-width: 800px;
+    margin-top: 10px;
+}
+
+.content{
+    background-color: rgb(9, 9, 32);
+    color: #fff;
+    padding: 25px;
+    width: 300px;
+    height: 100%;
+    border-radius:  70px 70px 0 0;
+    
+}
+.content li, i {
+    margin-bottom: 30px;
+}
+.photo{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(9, 9, 32);
+    border-bottom: solid white;
+    height: 200px;
+    width: auto;
+    border-radius: 0 0 100px 100px;
+
+
+}
+
+.profile img{
+    height: 200px;
+    width: 200px;
+    border-radius: 75px;
+    padding: 5px;
+}
+
+.content h2{
+    border-bottom: solid 2px ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.letter{
+    padding: 10px;
+    margin: 10px;
+    height: 100%;
+}
+
+.summary{
+    margin-bottom: 15px;
+}
+
+.name h1, p, h2{
+    margin-bottom: 10px;
+}
+
+.name h2{
+    margin-top: 20px;
+}
+
+.name p{
+    padding: 5px;
+}
+
+.letter .card{
+    margin: 10px;
+    padding: 15px;
+}
+
+.links a{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-style: italic;
+    padding: 2px;
+    color: #fff;
+    
+}
+
+.links a:hover{
+    background-color: black;
+
+}
